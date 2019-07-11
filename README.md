@@ -32,17 +32,6 @@ It is highly recommend to use secrets for these values, as you definitely not wa
 
 * It is not yet possible to retrieve the current channel, so this will only work with channels that are set using this component
 
-## Future (possible) features
-- [ ] Read status on succesful connection (current channel, volume etc.)
-- [ ] Retrieve status updates when using the remote
-- [ ] Change the volume (up/down & mute/unmute)
-- [ ] Switch channel using numeric input
-- [ ] Recording (of a specific channel and time)
-- [ ] Start apps
-
-# About
-This component is developed after retrieving a Ziggo Mediabox Next and getting into Home Assistant.
-
 ## Credits
 This entire component is based on a proof of concept published here: https://github.com/basst85/NextRemoteJs/
 and forked from: https://raw.githubusercontent.com/IIStevowII/ziggo-mediabox-next
