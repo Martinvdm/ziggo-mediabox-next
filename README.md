@@ -4,13 +4,11 @@ This is a custom component  that enables communication with a Ziggo Mediabox Nex
 ![Example of using the Mediabox Next](https://raw.githubusercontent.com/IIStevowII/ziggo-mediabox-next/master/screenshot.PNG)
 
 # Installation
-During early development it is only possible to install this component manually.
+Installation can be done with HACS
 
 ## Manual installation
 1) Download the content of this repository
-
 2) Place the directory "ziggo-mediabox-next" in the "custom_components" directory of your Home Assistant installation.
-
 3) A restart of Home Assistant is required before the component will work.
 
 # Usage
@@ -44,14 +42,9 @@ It is highly recommend to use secrets for these values, as you definitely not wa
 
 # About
 This component is developed after retrieving a Ziggo Mediabox Next and getting into Home Assistant.
-It is my first python project and also my first Home Assistant component integration.
-
-It is not under active development, but feedback and additional functionality are always welcome.
-Unfortunately untill additional MQTT commands are discoverd, it is not possible to implement certain functionality.
 
 ## Credits
 This entire component is based on a proof of concept published here: https://github.com/basst85/NextRemoteJs/
+and forked from: https://raw.githubusercontent.com/IIStevowII/ziggo-mediabox-next
 
 Ziggo Mediabox XL used for certain development choices: https://github.com/b10m/ziggo_mediabox_xl/
-
-And ofcourse various other (media player) components which I've used as a reference guide.
